@@ -1,0 +1,70 @@
+# Nmap 7.98 scan initiated Mon Sep 22 17:16:20 2025 as: nmap -sS -oN scan_results.txt 10.254.203.0/24
+Nmap scan report for 10.254.203.19
+Host is up (0.043s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: DA:18:E5:0F:B7:B5 (Unknown)
+
+Nmap scan report for 10.254.203.25
+Host is up (0.031s latency).
+All 1000 scanned ports on 10.254.203.25 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 66:D3:65:28:35:B2 (Unknown)
+
+Nmap scan report for 10.254.203.29
+Host is up (0.034s latency).
+All 1000 scanned ports on 10.254.203.29 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 96:BA:47:A2:B8:91 (Unknown)
+
+Nmap scan report for 10.254.203.31
+Host is up (0.028s latency).
+All 1000 scanned ports on 10.254.203.31 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: C6:95:1D:32:AA:DA (Unknown)
+
+Nmap scan report for 10.254.203.32
+Host is up (0.013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+8080/tcp filtered http-proxy
+MAC Address: 96:17:20:12:64:86 (Unknown)
+
+Nmap scan report for 10.254.203.72
+Host is up (0.015s latency).
+All 1000 scanned ports on 10.254.203.72 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: A2:67:CE:93:FB:F8 (Unknown)
+
+Nmap scan report for 10.254.203.78
+Host is up (0.039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: BE:CD:CA:82:48:C7 (Unknown)
+
+Nmap scan report for 10.254.203.80
+Host is up (0.0068s latency).
+All 1000 scanned ports on 10.254.203.80 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 9C:FC:E8:DF:3A:DB (Intel Corporate)
+
+Nmap scan report for 10.254.203.105
+Host is up (0.011s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+80/tcp   open     http
+8000/tcp filtered http-alt
+MAC Address: AC:17:94:48:D6:46 (Shenzhen Chuangwei-RGB Electronics)
+
+Nmap scan report for 10.254.203.77
+Host is up (0.000088s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+# Nmap done at Mon Sep 22 17:16:45 2025 -- 256 IP addresses (10 hosts up) scanned in 25.08 seconds
